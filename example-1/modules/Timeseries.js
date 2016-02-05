@@ -113,5 +113,11 @@ d3.timeSeries = function(){
         return this;
     }
 
+    exports.chartH= function(_y){
+	if(!arguments.length) return chartH;
+	chartH= _y;
+	return this;
+}
+
 	return exports;
 }

@@ -1,6 +1,7 @@
 .plot{
 	width:33%;
 	height:200px;
+	position:relative;
 	float:left;
 }
 

@@ -1,4 +1,8 @@
 .plot{
+	width:25%;
+	height:200px;
+	float:left;
+
 }
 
 .guide{
@@ -7,10 +11,19 @@
 }
 
 .area{
-    fill:rgba(200,200,200,.1);
+    fill:rgba(150,150,150,.2);
 }
 .line{
     fill:none;
-    stroke:rgb(80,80,80);
+    stroke:rgb(80,180,80);
     stroke-width:1px;
+}
+
+/*.plot_area{
+    height:1000px;
+}*/
+
+.plot h2{
+    position:absolute;
+    font-size:1.2em;
 }
