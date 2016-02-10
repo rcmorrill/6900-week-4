@@ -104,10 +104,6 @@ function exports (selection){
 		 .attr('class','axis')
 		 .attr('transform','translate('+margin.l+','+(margin.t+chartH)+')')
 		 .call(axisX);
-
-		 svg.select('.axis')
-            .call(axisX);
-
 	})
 
 }
